@@ -32,12 +32,11 @@ class CollectingTokens:
     q.append(nodes[1])
     while len(q) > 0:
       curNode = q.pop(0)
-      curNodeIndex = curNode.index
-      for c in nodes[curNodeIndex].children:
+      for c in curNode.children:
         # del c[c.index(curNodeIndex)]
         for i, child in enumerate(c.children):
-          if child.index == curNodeIndex:
-            del c[i]
+          if child.index == curNode.index:
+            del c.children[i]
             break
         # del c.children[]
         q.append(c)

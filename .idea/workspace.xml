@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7423974-f554-4778-ba8d-c5129c53f6db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CollectingTokens.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DevuAndGame.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoodString.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/SRM666.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollectingTokens.py" afterPath="$PROJECT_DIR$/CollectingTokens.py" />
     </list>
     <ignored path="SRM666.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +46,8 @@
       <file leaf-file-name="CollectingTokens.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CollectingTokens.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22298221">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.24623802">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -423,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CollectingTokens.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22298221">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.24623802">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
           <folding />
         </state>
       </provider>
