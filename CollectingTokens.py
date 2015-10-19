@@ -15,11 +15,11 @@ class TreeNode:
     self.children = []
 
   def __repr__(self):
-    result = "\nind: " + str(self.index) + ", val: "+ str(self.val)
+    result = "\nind: " + str(self.index) + ", val: " + str(self.val)
     result += "\n"
     for c in self.children:
-      # result += str(c)
-      result += str(c.index)
+      result += str(c)
+      # result += str(c.index)
       result += ", "
     result += "\n"
     return result
@@ -29,15 +29,12 @@ class CollectingTokens:
 
   def decideParent(self, nodes):
     q = []
-    q.append(nodes[1])
+    q.append(1)
     while len(q) > 0:
-      curNode = q.pop(0)
-      for c in curNode.children:
+      curNodeIndex = q.pop(0)
+      for c in nodes[curNodeIndex].children:
         # del c[c.index(curNodeIndex)]
-        for i, child in enumerate(c.children):
-          if child.index == curNode.index:
-            del c.children[i]
-            break
+        del nodes[c].children[nodes[c].children.index(curNodeIndex)]
         # del c.children[]
         q.append(c)
 
@@ -53,8 +50,8 @@ class CollectingTokens:
     for i in range(0, len(A)):
       Ai = A[i]
       Bi = B[i]
-      nodes[Ai].children.append(nodes[Bi])
-      nodes[Bi].children.append(nodes[Ai])
+      nodes[Ai].children.append(Bi)
+      nodes[Bi].children.append(Ai)
 
     print nodes
 
